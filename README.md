@@ -18,6 +18,7 @@
    * Thermistors Supported
      * E3D_PT100
      * Slice HT (450C)
+   * MK3S/MK3S+ ONLY
 <!--te-->
 -
 PLEASE DO A FACTORY RESET WITH DATA ERASURE after installing this firmware. Failure to clear out old EEPROM setttings can produce odd printer behavior.
