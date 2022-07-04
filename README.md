@@ -1,12 +1,27 @@
-# Prusa Firmware MK3
+# Customized Mk3 v3.11.0: Stepper Motor Upgrades to Eliminate VFA's (Vertical Fine Artifacts)
 
-This repository contains the source code and the development versions of the firmware running on the [Original Prusa i3](https://prusa3d.com/) MK3S/MK3/MK2.5S/MK2.5 line of printers.
-
-The latest official builds can be downloaded from [Prusa Drivers](https://www.prusa3d.com/drivers/). Pre-built development releases are also [available here](https://github.com/prusa3d/Prusa-Firmware/releases).
-
-The firmware for the Original Prusa i3 printers is proudly based on [Marlin 1.0.x](https://github.com/MarlinFirmware/Marlin/) by Scott Lahteine (@thinkyhead) et al. and is distributed under the terms of the [GNU GPL 3 license](LICENSE).
-
-
+<!--ts-->
+   * Updates based on content from https://forum.prusa3d.com/forum/original-prusa-i3-mk3s-mk3-user-mods-octoprint-enclosures-nozzles/stepper-motor-upgrades-to-eliminate-vfa-s-vertical-fine-artifacts/
+   * All updates from Bunny-Science v3.8.1 build, merged and retained 'KUO' Comment (https://github.com/guykuo/Prusa-Firmware/tree/0.9-Degree-Stepper-Support)
+   * Additional updates made and 'CLX' Comment added
+   * Stepper motors Variants
+     * Option 1: Moons MS17HA2P4100 0.9° steppers
+     * Option 2: OMC-Stepperonline 17HM15-0904S 0.9° stepper
+     * Option 3: Trinamic QSH4218-51-10-049 1.8° stepper (Increased Current Only)
+   * Extruders Supported
+     * Skelestruder
+     * Bondtech BMG Upgrade MK3/MK3S
+   * Hotends Supported
+     * E3Dv6
+     * E3D Volcano
+	 * Slice Mosquito/Magnum
+   * Thermistors Supported
+     * E3D_PT100
+     * Slice HT (450C)
+<!--te-->
+-
+PLEASE DO A FACTORY RESET WITH DATA ERASURE after installing this firmware. Failure to clear out old EEPROM setttings can produce odd printer behavior.
+-
 # Table of contents
 
 <!--ts-->
