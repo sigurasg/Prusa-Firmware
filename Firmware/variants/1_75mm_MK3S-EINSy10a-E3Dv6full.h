@@ -75,14 +75,14 @@
 //Motors used should be 1 amp or lower current rating to avoid overheating TMC2130 drivers in Stealthchop.
 //Kuo recommended 0.9 degree motors for X, Y, or direct drive E are Moons MS17HA2P4100 or OMC 17HM15-0904S 
 //
-//#define X_AXIS_MOTOR_09 //kuo exper X axis
-//#define Y_AXIS_MOTOR_09 //kuo exper Y axis
-//#define Z_AXIS_MOTOR_09 //kuo exper Z axis
-//#define E_AXIS_MOTOR_09 //kuo exper EXTRUDER
+#define X_AXIS_MOTOR_09 //kuo exper X axis
+#define Y_AXIS_MOTOR_09 //kuo exper Y axis
+#define Z_AXIS_MOTOR_09 //kuo exper Z axis
+#define E_AXIS_MOTOR_09 //kuo exper EXTRUDER
 
 //====== CLX Motor Options
 //#define MOONS // Set for Moons MS17HA2P4100 0.9° steppers - Sets HOMING_FEEDRATE
-//#define OMC // Set for OMC-Stepperonline 17HM15-0904S 0.9° stepper - Sets HOMING_FEEDRATE
+#define OMC // Set for OMC-Stepperonline 17HM15-0904S 0.9° stepper - Sets HOMING_FEEDRATE
 //#define TRIMANIC // Set for Trinamic Trinamic QSH4218-51-10-049 1.8° stepper - Sets TMC2130_CURRENTS
 
 //====== CLX Bear X-Axis Support
@@ -94,7 +94,7 @@
 //
 //#define SKELESTRUDER // Uncomment if you have a 3.5 ratio Skelestruder. Also applies the patches for load distances and Z height.
 //#define BONDTECH_PRUSA_UPGRADE_MK3 //Kuo Uncomment for Bondtech MK3 extruder upgrade. 3:1 extruder. This also sets Z_MAX_POS 205.
-//#define BONDTECH_PRUSA_UPGRADE_MK3S //Kuo Uncomment for Bondtech MK3S extruder upgrade. (Note the S!!!!) 3:1 extruder. This also sets Z_MAX_POS 205.
+#define BONDTECH_PRUSA_UPGRADE_MK3S //Kuo Uncomment for Bondtech MK3S extruder upgrade. (Note the S!!!!) 3:1 extruder. This also sets Z_MAX_POS 205.
 //#define EXTRUDER_GEARRATIO_30 //Kuo Uncomment for extruder with gear ratio 3.0. 
 //#define EXTRUDER_GEARRATIO_3375 //Kuo Uncomment for extruder with gear ratio 3.375 like 54:16 BNBSX.
 //#define EXTRUDER_GEARRATIO_35 //Kuo Uncomment for extruder with gear ratio 3.5 like 56:16 Bunny and Bear Short Ears.
@@ -103,7 +103,7 @@
 //#define E3D_VOLCANO //uncomment to adjust Z_MAX_POS to accomodate 8.5 mm greater Volcano extruder height
 
 //====== Kuo Slice Support
-//#define SLICETHERMISTOR //uncomment for Slice Thermistor
+#define SLICETHERMISTOR //uncomment for Slice Thermistor
 //#define SLICEMAGNUM //uncomment to adjust MMU2S filament laod/unload distances for Slice Magnum
 
 //====== Kuo extrude before unload filament
@@ -174,7 +174,7 @@
 #define MANUAL_Z_HOME_POS 0.2
 
 // Travel limits after homing
-#define X_MAX_POS 255
+#define X_MAX_POS 248.5
 #define X_MIN_POS 0
 #define Y_MAX_POS 212.5
 #define Y_MIN_POS -4 //orig -4
